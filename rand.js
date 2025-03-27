@@ -1,3 +1,5 @@
+//  https://w-kiwamu.github.io/kintone_random_string/rand.js
+
 //カスタマイズのポイント
 //ランダム文字列の長さ: generateSecureRandomString(8)の8を変更すれば、生成するランダム文字列の長さを調整可能。
 //対象フィールド: rand以外のフィールドコードを使う場合、record.rand.valueの部分を対応するフィールドコードに変更。
