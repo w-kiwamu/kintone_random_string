@@ -1,4 +1,4 @@
-//  https://w-kiwamu.github.io/kintone_random_string/rand.js
+//  https://w-kiwamu.github.io/kintone_random_string/rand32.js
 
 //カスタマイズのポイント
 //ランダム文字列の長さ: generateSecureRandomString(323)の32を変更すれば、生成するランダム文字列の長さを調整可能。
