@@ -8,9 +8,9 @@
 (function() {
     "use strict";
 
-    // 暗号学的に安全なランダム文字列生成関数     %と^は使用しない
+    // 暗号学的に安全なランダム文字列生成関数     記号は使用しない
     function generateSecureRandomString(length) {
-        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$&*';
+        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
         const array = new Uint8Array(length);
         crypto.getRandomValues(array);
         let result = '';
